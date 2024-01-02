@@ -1,0 +1,23 @@
+name: LootGUI
+version: '${project.version}'
+main: me.jncwhite.lootgui.LootGUI
+api-version: 1.20
+authors: [ Jncwhite ]
+description: An alternative to death chests for PVP servers
+commands:
+  collect:
+    description: Open the LootGUI collect menu
+    usage: /<command>
+  loot:
+    description: Main command
+    usage: /<command> [clear] [target]
+permissions:
+  lootgui.collect:
+    description: Allows players loot items to be added to collect menu and gives access to /collect command
+    default: op
+  lootgui.clear:
+    description: Allows players to clear their own loot
+    default: op
+  lootgui.admin.clear:
+    description: Allows players to clear the loot of other players
+    default: op

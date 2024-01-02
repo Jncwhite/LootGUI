@@ -1,0 +1,28 @@
+gui:
+  collect-menu-name: "&c&lCollect your loot!"
+  collect-menu-size: 54
+  next-material: "DARK_OAK_BUTTON"
+  next-name: "&e&lNext"
+  previous-material: "DARK_OAK_BUTTON"
+  previous-name: "&e&lPrevious"
+  close-material: "BARRIER"
+  close-name: "&c&lClose"
+
+messages:
+  prefix: "&8&l[&c&lLoot&f&lGUI&8&l]"
+  kill-player-message: "&fYou killed &c%victim%&f! Use &c/collect &fto loot their items!"
+  already-on-first-page: "&cYou are already on the first page!"
+  already-on-last-page: "&cYou are already on last page!"
+  loot-cleared-self: "&fYou have cleared your loot!"
+  loot-cleared-self-fail: "&fYou do not have any loot to clear!"
+  loot-cleared-other-sender: "&fYou have cleared the loot of &c%player%&f!"
+  loot-cleared-other-sender-fail: "&c%player% &fdoes not have any loot to clear!"
+  loot-cleared-other-target: "&fYour loot has been cleared!"
+  player-not-found: "&c%player% could not be found!"
+  console-can-not-do-that: "&cConsole can not use that command!"
+  no-permission: "&cYou do not have permission to use that command!"
+  help:
+    - "Help command"
+    - "/collect - collect loot"
+
+players:
